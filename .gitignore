@@ -1,0 +1,22 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.*
+!.env.example
+
+frontend/node_modules/
+frontend/dist/
+
+.ipynb_checkpoints/
+
+# Large/generated local assets
+*.sqlite3
+*.db
+/data/documents/*.pdf
+/data/documents/*.docx
+/data/documents/*.txt
+
+.DS_Store
